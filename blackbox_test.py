@@ -1,7 +1,7 @@
 import unittest
 
 def suma(number1, number2):
-    return abs(number1 + number2)
+    return number1 + number2
 
 class BlackboxTest( unittest.TestCase):
 
